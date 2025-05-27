@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project specific
+.DS_Store
+.env.local
+*.env.*
+
+# Temporary files
+*.tmp
+*.bak
+
+# API keys and credentials (when you add them later)
+config/api_keys.json
+config/credentials.json
