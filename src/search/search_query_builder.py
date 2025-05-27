@@ -65,7 +65,8 @@ class SearchQueryBuilder:
         """Return list of distinct organization names for query generation."""
         base = self._normalize_union_name(org_name)
         names = [base]
-        if dba_name and dba_name.strip() and dba_name.strip().lower() != org_name.strip().lower():
+        # FIX: Check for NaN and None
+        if dba_name and str(dba_name).lower() not in ['nan', 'none', ''] and dba_name.strip().lower() != org_name.strip().lower():
             names.append(self._normalize_union_name(dba_name))
         # remove duplicates while preserving order
         seen = set()
