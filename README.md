@@ -7,6 +7,7 @@ Automated executive contact discovery system for organizational outreach. Rebuil
 - Multi-source verification for executive contacts
 - Domain discovery and validation
 - Email pattern matching with verification
+- SMTP handshake verification for email accuracy
 - Batch processing for large organizational databases
 - CRM integration ready
 
