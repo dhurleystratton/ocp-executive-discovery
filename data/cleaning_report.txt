@@ -1,0 +1,28 @@
+EPP Database Cleaning Report
+==================================================
+Generated: 2025-05-26 22:16:27
+
+Total Records: 1,038
+Records With Phone: 1,038
+Records With Website: 0
+Records With Email Domain: 0
+Local Unions Identified: 239
+Parent Unions Identified: 247
+Avg Data Completeness: 84.4185934489403
+High Quality Records: 1,037
+
+
+Column Summary:
+------------------------------
+Total columns: 71
+Executive title columns: 38
+
+
+Sample Records (Top 5 by data quality):
+--------------------------------------------------
+                                                   organization_name mail_us_city mail_us_state phone_number_cleaned website_domain_cleaned  data_completeness_score
+                 NATIONAL EDUCATION ASSOCIATION OF THE UNITED STATES   WASHINGTON            DC       (202) 822-7179                   None                    84.44
+TRUSTEES OF INTERNATIONAL BROTHERHOOD TEAMSTERS VOLUNTARY EMPLOYEE B   WASHINGTON            DC       (202) 624-6800                   None                    84.44
+                       AMERICAN FEDERATION OF TEACHERS BENEFIT TRUST   WASHINGTON            DC       (202) 879-4400                   None                    84.44
+             THE COMMITTEE OF THE UAW RETIREE MEDICAL BENEFITS TRUST      DETROIT            MI       (313) 324-5900                   None                    84.44
+                                                JOINT PLAN COMMITTEE    ARLINGTON            VA       (571) 336-7600                   None                    84.44
