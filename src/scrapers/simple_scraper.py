@@ -60,6 +60,10 @@ class SimpleScraper:
         if not response.ok:
             return None
 
+        content_type = response.headers.get("Content-Type", "").lower()
+        if "text/html" not in content_type:
+            return None
+
         return BeautifulSoup(response.text, "html.parser")
 
 
